@@ -14,7 +14,7 @@ export default defineConfig({
       resolvers: [ElementPlusResolver()],
     }),
     Components({
-      //配置element-plus采用sass配送系统
+      //配置element-plus采用sass配色系统
       resolvers: [ElementPlusResolver({importStyle: "sass"})],
     }),
   ],
